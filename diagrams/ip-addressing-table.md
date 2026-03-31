@@ -1,7 +1,10 @@
 # IP Addressing Table
 
+## Version 1 Lab Network
+Network: `10.10.10.0/24`
+
 | Device | Role | Network | IP Address | Notes |
 |---|---|---|---|---|
-| TBD | Firewall/Router | TBD | TBD | To be assigned |
-| TBD | Windows Server | TBD | TBD | To be assigned |
-| TBD | Client | TBD | TBD | To be assigned |
+| pfSense | Firewall/Router | 10.10.10.0/24 | 10.10.10.1 | Planned default gateway |
+| Windows Server | Server | 10.10.10.0/24 | 10.10.10.10 | Planned static IP |
+| Windows Client | Client Workstation | 10.10.10.0/24 | 10.10.10.50 | Planned test client |

@@ -1,19 +1,23 @@
 # Project Overview
 
-This project will simulate a multi-site enterprise network inside a virtual lab environment.
+This project is a step-by-step virtual enterprise network lab built and documented from the ground up.
 
-The lab will be built in stages and documented throughout the process in GitHub.
+The lab is being developed in phases so that each stage is understandable, testable, and documented in GitHub.
 
-The initial version of the lab will include:
-- one firewall/router VM
+## Version 1 Scope
+The first version of the lab will include:
+- one pfSense firewall/router VM
 - one Windows Server VM
-- one client VM
+- one Windows client VM
+- one internal lab network
 
-Later versions may include:
-- a Linux server
-- a second site
-- additional client systems
-- additional segmented networks
-- file sharing and access controls
+## Purpose
+The purpose of Version 1 is to build a small but functional client/server network inside a virtual environment before expanding into a larger enterprise design.
 
-The purpose of the project is to gain hands-on experience while creating a portfolio-ready networking and systems administration project.
+This project is intended to demonstrate:
+- virtualization
+- basic network design
+- IP addressing
+- server/client connectivity
+- documentation practices
+- troubleshooting and validation

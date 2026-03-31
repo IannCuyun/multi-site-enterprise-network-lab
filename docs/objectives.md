@@ -1,15 +1,18 @@
 # Objectives
 
-## Primary Objectives
-- Build a virtual network lab from scratch
-- Document the project in a professional GitHub repository
-- Learn basic enterprise network structure
-- Deploy a Windows Server in a lab environment
-- Configure network connectivity between systems
-- Validate and record successful testing
+## Version 1 Objectives
+- Build the first working version of the virtual network lab
+- Deploy one firewall/router VM
+- Deploy one Windows Server VM
+- Deploy one Windows client VM
+- Configure a simple internal lab network
+- Assign and document IP addresses
+- Validate client-to-server connectivity
+- Document the setup in GitHub
 
-## Secondary Objectives
-- Add Linux services
-- Add network segmentation
-- Add access controls
-- Add screenshots, diagrams, and troubleshooting notes
+## Later Objectives
+- Add Active Directory
+- Add DNS
+- Add a Linux server
+- Add more segmented networks
+- Add access controls and validation tests
